@@ -59,48 +59,54 @@ function Project() {
             organising sound frequencies into "buckets."
           </p>
         </div>
+        {/* Monster Beat */}
         <div className="project">
           <a
-            href="https://yujisatojr.itch.io/spacecraft"
+            href="https://github.com/leeandrew135/Monster-Beat"
             target="_blank"
             rel="noreferrer"
           >
             <img src={mock08} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
-            href="https://yujisatojr.itch.io/spacecraft"
+            href="https://github.com/leeandrew135/Monster-Beat"
             target="_blank"
             rel="noreferrer"
           >
-            <h2>Astro Raiders</h2>
+            <h2>Monster Beat</h2>
           </a>
           <p>
-            Developed and released a 2D shooting game with C# and Unity. This
-            project is hosted on the Itch.io public marketplace.
+            Developed educational game that uses multiple choice questions, with
+            the questions bank able to be tailored for specific subjects.
+            Developed in a group of five using Java and Java Swing for GUI.
           </p>
         </div>
+        {/* MarmotTech Website */}
         <div className="project">
           <a
-            href="https://www.datumlearn.com/"
+            href="https://github.com/leeandrew135/marmot-tech"
             target="_blank"
             rel="noreferrer"
           >
             <img src={mock07} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
-            href="https://www.datumlearn.com/"
+            href="https://github.com/leeandrew135/marmot-tech"
             target="_blank"
             rel="noreferrer"
           >
-            <h2>Datum: Integrated Learning Platform</h2>
+            <h2>MarmotTech Official Website</h2>
           </a>
           <p>
-            This is an online educational platform that provides high-quality,
-            data science-focused learning resources in the Japanese language. I
-            created the entire platform from scratch using Ruby on Rails.
+            Designed to advertise our services, share our vision, and connect
+            with potential clients and partners. Built with a focus on
+            simplicity and elegance, the website highlights who we are and what
+            we offer to the world.
           </p>
         </div>
-        <div className="project">
+
+        {/* OTHER PROJECTS */}
+        {/* <div className="project">
           <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer">
             <img src={mock06} className="zoom" alt="thumbnail" width="100%" />
           </a>
@@ -218,7 +224,7 @@ function Project() {
             Developed and released an Android mobile application using Java and
             Android Studio that runs a 2D shooting game.
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
