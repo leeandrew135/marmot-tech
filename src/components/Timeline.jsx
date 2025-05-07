@@ -105,7 +105,8 @@ function Timeline() {
           </div>
 
           {/* MARMOT TECH LOGO */}
-          <a href="https://www.marmot-tech.ca/" className="logo">
+          <a href="/" className="logo">
+            {/* <a href="https://www.marmot-tech.ca/" className="logo"> */}
             <img src={logoMT} className="marmot-image zoom"></img>
           </a>
         </div>
