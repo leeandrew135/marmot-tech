@@ -1,0 +1,139 @@
+.icon-img {
+  cursor: default;
+  border-radius: 29px;
+  max-height: 212px; /* Set maximum height for the icons */
+  max-width: 212px; /* Set maximum width for the icons */
+}
+.ourServices {
+  margin-top: 120px;
+  color: white;
+  font-family: Arial;
+  font-size: 45px;
+  text-align: center;
+}
+.icon:hover {
+  background-color: #7e7e7e;
+}
+.icon {
+  background-color: white;
+  display: inline-block;
+  border: 7px solid white;
+  border-radius: 29px;
+  margin-top: 10px;
+  box-shadow: 0 8px 2px rgba(0, 0, 0, 0.75);
+}
+.table-container {
+  white-space: nowrap; /* Prevent icons from wrapping to the next line */
+}
+
+.table-container table {
+  width: auto; /* Allow the table to adjust its width based on content */
+}
+.table-spacers {
+  visibility: hidden;
+}
+.info-box {
+  margin-top: 100px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-family: "Montserrat";
+  font-size: 30px;
+  text-align: center;
+  width: 800px;
+  height: auto;
+  border: 3px solid white;
+  border-radius: 30px;
+  box-shadow: inset 0 0px 25px rgba(0, 0, 0, 1);
+  padding: 25px;
+  /* Added flexbox properties */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.icon-title {
+  color: white;
+  font-size: 45px;
+  font-family: "Montserrat";
+}
+.serviceBanner {
+  display: block;
+  margin: 0 auto;
+  margin-top: 55px;
+  width: 90%;
+}
+.icon-table {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 45px;
+  max-width: 67.8vw;
+}
+#services-mainsection {
+  height: 2000px;
+}
+
+@media (max-width: 767px) {
+  .info-box {
+    width: 85%;
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 425px) {
+  .serviceBanner {
+    padding: 20px;
+    margin: 0;
+  }
+  .ourServices {
+    margin-top: 40px;
+    font-size: 30px;
+  }
+
+  .info-box {
+    width: 80%;
+    margin-top: 60px;
+  }
+  .icon-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 23px;
+  }
+  .icon {
+    border-radius: 23px;
+  }
+  .icon-title {
+    font-size: 20px;
+  }
+  .table-spacers {
+    font-size: 4px;
+  }
+  .info-box {
+    font-size: 20px;
+  }
+  #services-mainsection {
+    height: 1150px;
+  }
+}
+@media (max-width: 320px) {
+  .icon-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 19px;
+  }
+  .icon {
+    border-radius: 19px;
+  }
+  .icon-title {
+    font-size: 16px;
+  }
+  .table-spacers {
+    font-size: 4px;
+  }
+  .info-box {
+    font-size: 15px;
+  }
+  #services-mainsection {
+    height: 1000px;
+  }
+}

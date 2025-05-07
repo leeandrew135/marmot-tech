@@ -1,0 +1,82 @@
+.ContactBanner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 849px;
+  margin-top: 40px;
+}
+
+.contactContainer {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 150px;
+  white-space: nowrap;
+}
+.email-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+}
+.email-box {
+  width: 75%;
+  height: 50%;
+  min-height: 60px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 4.5%;
+  background-color: #121212;
+  border: 8px solid white;
+}
+.email-title {
+  text-align: center;
+  color: white;
+  font-family: "Montserrat";
+  font-size: 39px;
+  margin-top: 100px;
+}
+
+.email-text {
+  text-align: center;
+  padding-top: 3vh;
+  font-size: 150%;
+  color: white;
+  font-family: "Montserrat";
+  vertical-align: middle;
+}
+#contact-mainsection {
+  height: 1200px;
+}
+
+@media (max-width: 767px) {
+  .ContactBanner {
+    width: 85%;
+  }
+  .contactContainer {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+  }
+  #contact-mainsection {
+    height: 1100px;
+  }
+  .email-text {
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 425px) {
+  .email-text {
+    font-size: 3vw;
+    padding-top: 0;
+    margin-top: 3vh;
+  }
+  #contact-mainsection {
+    height: 800px;
+  }
+  .email-box {
+    height: 5vh;
+  }
+}

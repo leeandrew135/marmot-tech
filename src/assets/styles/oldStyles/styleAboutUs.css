@@ -1,0 +1,111 @@
+/* ABOUT US PROFILES */
+.AU_Banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 900px;
+}
+.profileContainer {
+  /* display: inline-block; */
+  position: absolute;
+  width: 325px;
+  justify-content: center;
+}
+.profileText {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  width: 100%;
+}
+#about-MainSection {
+  height: 2000px;
+}
+.AU_MainText {
+  font-family: "Montserrat";
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: auto;
+  padding-right: auto;
+  line-height: 51px;
+  border: 5px solid #707070;
+  width: 70%;
+  margin-top: 600px;
+}
+.AU_Paragraph {
+  font-family: "Arial";
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  line-height: 40px;
+  max-width: 900px;
+}
+
+@media (max-device-width: 767px) {
+  #about-MainSection {
+    height: 1750px;
+  }
+  .AU_Banner {
+    width: 85%;
+  }
+  .profileContainer {
+    width: 40%;
+  }
+  .profileText {
+    font-size: 25px;
+  }
+  .AU_MainText {
+    width: 85%;
+    font-size: 30px;
+    margin-top: 500px;
+    line-height: 45px;
+  }
+  .AU_Paragraph {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  #about-MainSection {
+    height: 1300px;
+  }
+  .AU_Banner {
+    width: 85%;
+  }
+  .profileContainer {
+    width: 40%;
+  }
+  .profileText {
+    font-size: 4vw;
+  }
+  .AU_MainText {
+    margin-top: 325px;
+    width: 85%;
+    font-size: 19px;
+    line-height: 25px;
+  }
+  .AU_Paragraph {
+    line-height: 30px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 320px) {
+  .AU_Paragraph {
+    font-size: 15px;
+  }
+
+  .AU_MainText {
+    margin-top: 200px;
+    font-size: 15px;
+  }
+}

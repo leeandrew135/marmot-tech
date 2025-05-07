@@ -1,18 +1,15 @@
 import React, { useState, useEffect } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {
-  Main,
-  Timeline,
-  Expertise,
-  Project,
-  Contact,
-  Navigation,
-  Footer,
-  MarmotTech,
-} from "./components";
-import FadeIn from "./components/FadeIn";
-// import "./index.scss";
-
-import logo from "./logo.svg";
+  PageHome,
+  PageAbout,
+  PageServices,
+  PageBenefits,
+  PageContact,
+  PageAndrew,
+  PageYuval,
+} from "./pages";
+import "./index.css";
 import "./App.css";
 
 function App() {
@@ -30,22 +27,19 @@ function App() {
   }, []);
 
   return (
-    <div
-      className={`main-container ${
-        mode === "dark" ? "dark-mode" : "light-mode"
-      }`}
-    >
-      <Navigation parentToChild={{ mode }} modeChange={handleModeChange} />
-      <FadeIn transitionDuration={700}>
-        <Main />
-        <Expertise />
-        <Timeline />
-        <MarmotTech />
-        <Project />
-        <Contact />
-      </FadeIn>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div id="mainDiv">
+        <Routes>
+          <Route path="/" element={<PageHome />} />
+          <Route path="/about" element={<PageAbout />} />
+          <Route path="/services" element={<PageServices />} />
+          <Route path="/benefits" element={<PageBenefits />} />
+          <Route path="/contact" element={<PageContact />} />
+          <Route path="/andrewlee" element={<PageAndrew />} />
+          <Route path="/yuavlrashish" element={<PageYuval />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

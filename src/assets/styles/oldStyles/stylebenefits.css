@@ -1,0 +1,133 @@
+/* BENEFITS */
+.benefitsContainer {
+  /* Is the container that makes up "3 columns" that are the benefits */
+  /* Since containers take up (horizontal) blocks by default, the display layout must be manually set */
+  display: inline-block;
+  vertical-align: top;
+  width: 28.33%;
+  /* left margin must be manually set */
+}
+.benefitsIcon {
+  /* AI Generated Icons */
+  width: 80%;
+}
+.benefitsVerticalLine {
+  /* Thin, gray, vertical lines used for styling */
+  width: 2px;
+  height: 120px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  background-color: #707070;
+  /* chagne color to 707070 */
+}
+#leftBenefit {
+  margin-right: 7.5%;
+}
+#rightBenefit {
+  margin-left: 7.5%;
+}
+.benefitsBannerContainer {
+  /* Used to hold the banner image and text inside the image */
+  width: 100%;
+  position: relative;
+}
+.benefitsBanner {
+  /* Banner image */
+  width: 100%;
+}
+.benefitsHorizontalLine {
+  height: 6px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #707070;
+}
+.bannerText {
+  position: absolute; /* allows for position relative to nearest ancestor */
+  top: 5%;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+
+  text-align: center;
+  color: white; /* Text color */
+  font-size: 23px; /* Text size */
+  font-family: "Montserrat", sans-serif; /* Typography */
+}
+#benefits-MainSection {
+  height: 1750px;
+}
+#benefitsTitle {
+  font-size: 50px;
+}
+#benefitsRibbon {
+  width: 100%;
+  height: 160px;
+  position: absolute;
+  top: 180px;
+  margin-bottom: 20px;
+}
+#centeringContainer {
+  margin-top: 200px;
+  width: 90%;
+}
+#benefitsEndText {
+  margin-top: 40px;
+  font-size: 30px;
+}
+#benefitsEndText2 {
+  font-size: 30px;
+}
+
+@media (max-width: 767px) {
+  .centeringContainer {
+    width: 90%;
+  }
+  .bannerText {
+    font-size: 17px;
+  }
+  #benefits-MainSection {
+    height: 1550px;
+  }
+}
+
+@media (max-width: 425px) {
+  .benefitsVerticalLine {
+    height: 60px;
+  }
+  .bannerText {
+    font-size: 11px;
+  }
+  #benefitsTitle {
+    font-size: 30px;
+  }
+  #benefitsRibbon {
+    top: 140px;
+    height: 100px;
+  }
+  #centeringContainer {
+    margin-top: 150px;
+  }
+  #benefits-MainSection {
+    height: 1100px;
+  }
+  #benefitsEndText {
+    margin-top: 40px;
+    font-size: 20px;
+  }
+  #benefitsEndText2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .bannerText {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 320px) {
+  .bannerText {
+    font-size: 7px;
+  }
+}
