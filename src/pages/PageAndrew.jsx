@@ -39,7 +39,7 @@ const PageAndrew = () => {
         <Timeline />
         <MarmotTech />
         <Project />
-        <Contact />
+        {/* <Contact /> */}
       </FadeIn>
       <Footer />
     </div>

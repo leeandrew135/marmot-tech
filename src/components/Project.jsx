@@ -1,14 +1,8 @@
 import React from "react";
-import mock01 from "../assets/images/mock01.png";
-import mock02 from "../assets/images/mock02.png";
-import mock03 from "../assets/images/mock03.png";
-import mock04 from "../assets/images/mock04.png";
-import mock05 from "../assets/images/mock05.png";
-import mock06 from "../assets/images/mock06.png";
-import mock07 from "../assets/images/mock07.png";
-import mock08 from "../assets/images/mock08.png";
-import mock09 from "../assets/images/mock09.png";
-import mock10 from "../assets/images/mock10.png";
+import taskmaster from "../assets/images/demo_taskmaster.png";
+import themusicbox from "../assets/images/demo_themusicbox.png";
+import monsterbeat from "../assets/images/demo_monsterbeat.png";
+import marmottech from "../assets/images/demo_marmottech.png";
 import "../assets/styles/Project.css";
 
 function Project() {
@@ -23,7 +17,12 @@ function Project() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={mock10} className="zoom" alt="thumbnail" width="100%" />
+            <img
+              src={taskmaster}
+              className="zoom"
+              alt="thumbnail"
+              width="100%"
+            />
           </a>
           <a
             href="https://github.com/leeandrew135/Task-Master"
@@ -44,7 +43,12 @@ function Project() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={mock09} className="zoom" alt="thumbnail" width="100%" />
+            <img
+              src={themusicbox}
+              className="zoom"
+              alt="thumbnail"
+              width="100%"
+            />
           </a>
           <a
             href="https://github.com/leeandrew135/The-Music-Box"
@@ -66,7 +70,12 @@ function Project() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={mock08} className="zoom" alt="thumbnail" width="100%" />
+            <img
+              src={monsterbeat}
+              className="zoom"
+              alt="thumbnail"
+              width="100%"
+            />
           </a>
           <a
             href="https://github.com/leeandrew135/Monster-Beat"
@@ -88,7 +97,12 @@ function Project() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={mock07} className="zoom" alt="thumbnail" width="100%" />
+            <img
+              src={marmottech}
+              className="zoom"
+              alt="thumbnail"
+              width="100%"
+            />
           </a>
           <a
             href="https://github.com/leeandrew135/marmot-tech"

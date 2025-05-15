@@ -1,5 +1,6 @@
 import React from "react";
-import mock10 from "../assets/images/mock10.png";
+import mtportal from "../assets/images/demo_mtportal.png";
+import quaq from "../assets/images/demo_quaq.png";
 import "../assets/styles/Project.css";
 
 const MarmotTech = () => {
@@ -13,7 +14,7 @@ const MarmotTech = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={mock10} className="zoom" alt="thumbnail" width="100%" />
+            <img src={mtportal} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
             href="https://github.com/TheSevenCs/MTPortal"
@@ -36,7 +37,7 @@ const MarmotTech = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={mock10} className="zoom" alt="thumbnail" width="100%" />
+            <img src={quaq} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
             href="https://github.com/TheSevenCs/QUAQ"

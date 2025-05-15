@@ -21,7 +21,7 @@ const navItems = [
   ["Expertise", "expertise"],
   ["MarmotTech", "history"],
   ["Projects", "projects"],
-  ["Contact", "contact"],
+  // ["Contact", "contact"],
 ];
 
 function Navigation({ parentToChild, modeChange }) {
