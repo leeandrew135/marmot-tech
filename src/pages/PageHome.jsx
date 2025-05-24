@@ -19,9 +19,9 @@ const PageHome = () => {
         <a href="/" className="sidebar-link">
           Home
         </a>
-        <a href="/about" className="sidebar-link">
+        <Link to="/about" className="sidebar-link">
           About Us
-        </a>
+        </Link>
         <a href="/services" className="sidebar-link">
           Services
         </a>

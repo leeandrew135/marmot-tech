@@ -31,7 +31,7 @@ function App() {
       <div id="mainDiv">
         <Routes>
           <Route path="/" element={<PageHome />} />
-          <Route path="/about" element={<PageAbout />} />
+          <Route path="/marmot-tech/about" element={<PageAbout />} />
           <Route path="/services" element={<PageServices />} />
           <Route path="/benefits" element={<PageBenefits />} />
           <Route path="/contact" element={<PageContact />} />
