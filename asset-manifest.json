@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/marmot-tech/static/css/main.1883a43a.css",
-    "main.js": "/marmot-tech/static/js/main.c8584d95.js",
+    "main.js": "/marmot-tech/static/js/main.1f73bab7.js",
     "static/js/453.f2b79940.chunk.js": "/marmot-tech/static/js/453.f2b79940.chunk.js",
     "static/media/demo_themusicbox.png": "/marmot-tech/static/media/demo_themusicbox.cd2e638d2d065e0980f1.png",
     "static/media/WebsiteIcon.png": "/marmot-tech/static/media/WebsiteIcon.f9a54a7cda5b1140cc4f.png",
@@ -39,11 +39,11 @@
     "static/media/Osiris.woff2": "/marmot-tech/static/media/Osiris.b5a9e25eae7352a2dd52.woff2",
     "index.html": "/marmot-tech/index.html",
     "main.1883a43a.css.map": "/marmot-tech/static/css/main.1883a43a.css.map",
-    "main.c8584d95.js.map": "/marmot-tech/static/js/main.c8584d95.js.map",
+    "main.1f73bab7.js.map": "/marmot-tech/static/js/main.1f73bab7.js.map",
     "453.f2b79940.chunk.js.map": "/marmot-tech/static/js/453.f2b79940.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1883a43a.css",
-    "static/js/main.c8584d95.js"
+    "static/js/main.1f73bab7.js"
   ]
 }
