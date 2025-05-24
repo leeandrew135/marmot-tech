@@ -14,7 +14,7 @@ import "./App.css";
 
 function App() {
   // STATE VARIABLE
-  const [mode, setMode] = useState("dark"); // Removed TypeScript annotation
+  const [mode, setMode] = useState("dark");
 
   // TOGGLE LIGHT/DARK MODE
   const handleModeChange = () => {
@@ -27,7 +27,7 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/marmot-tech">
       <div id="mainDiv">
         <Routes>
           <Route path="/" element={<PageHome />} />
