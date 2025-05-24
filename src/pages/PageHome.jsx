@@ -22,15 +22,15 @@ const PageHome = () => {
         <Link to="/about" className="sidebar-link">
           About Us
         </Link>
-        <a href="/services" className="sidebar-link">
+        <Link to="/services" className="sidebar-link">
           Services
-        </a>
-        <a href="/benefits" className="sidebar-link">
+        </Link>
+        <Link to="/benefits" className="sidebar-link">
           Benefits
-        </a>
-        <a href="/contact" className="sidebar-link">
+        </Link>
+        <Link to="/contact" className="sidebar-link">
           Contact Us
-        </a>
+        </Link>
       </div>
       <div id="sidebar2" className="sidebar2" />
 

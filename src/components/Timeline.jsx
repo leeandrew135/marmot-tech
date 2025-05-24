@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
@@ -105,10 +106,10 @@ function Timeline() {
           </div>
 
           {/* MARMOT TECH LOGO */}
-          <a href="/" className="logo">
+          <Link to="/" className="logo">
             {/* <a href="https://www.marmot-tech.ca/" className="logo"> */}
             <img src={logoMT} className="marmot-image zoom"></img>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

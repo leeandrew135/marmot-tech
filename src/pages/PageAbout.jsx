@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-
+import { Link } from "react-router-dom";
 import "../assets/styles/oldStyles/style.css"; // import "../css/style.css";
 import "../assets/styles/oldStyles/styleAboutUs.css"; // import "../css/styleAboutUs.css";
 // import logo from "../images/MarmotLogo.png";
@@ -118,10 +118,10 @@ const PageAbout = () => {
           className="profileContainer"
           style={{ right: "50%", paddingRight: "5%" }}
         >
-          <a href="/andrewlee">
+          <Link to="/andrewlee">
             <img src={andrew} width="100%" alt="Andrew Lee" />
-          </a>
-          <a href="/andrewlee">
+          </Link>
+          <Link to="/andrewlee">
             <div className="profileText">
               <p>
                 Andrew Lee
@@ -131,7 +131,7 @@ const PageAbout = () => {
                 Western University
               </p>
             </div>
-          </a>
+          </Link>
         </div>
 
         <div
